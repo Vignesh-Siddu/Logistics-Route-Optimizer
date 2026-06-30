@@ -1,16 +1,16 @@
-# 🚚 Logistics Route Optimizer
+# Logistics Route Optimizer
 
-A Python-based logistics optimization project that aims to solve the **Vehicle Routing Problem (VRP)** using **Google OR-Tools**. The objective is to generate optimized multi-stop delivery routes while minimizing travel distance and improving route efficiency.
+A Python-based logistics optimization project that aims to solve the **Vehicle Routing Problem (VRP)** using **Google OR-Tools**. The objective is to generate optimized multi-stop delivery routes while minimizing travel distance and improving operational efficiency.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on developing a modular logistics route optimization system by combining optimization algorithms with real-world routing data and interactive map visualization.
 
 ---
 
-## ✅ Current Progress
+## Current Progress
 
 - Implemented a CSV-based delivery location loader.
 - Developed distance matrix generation for delivery locations.
@@ -19,7 +19,7 @@ This project focuses on developing a modular logistics route optimization system
 
 ---
 
-## 🚀 Upcoming Features
+## Upcoming Features
 
 - Integrate the OpenRouteService API for real-world road distances and travel times.
 - Visualize optimized delivery routes using Folium.
@@ -28,7 +28,7 @@ This project focuses on developing a modular logistics route optimization system
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - Python
 - Google OR-Tools
@@ -39,7 +39,7 @@ This project focuses on developing a modular logistics route optimization system
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Logistics-Route-Optimizer/
