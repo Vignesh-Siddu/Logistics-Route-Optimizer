@@ -1,56 +1,58 @@
-# Logistics Route Optimizer
+# 🚚 Logistics Route Optimizer
 
-A Python-based logistics optimization project that solves the Vehicle Routing Problem (VRP) using Google OR-Tools, real-world road distances from the OpenRouteService API, and interactive route visualization with Folium.
-
----
-
-## Features
-
-- Vehicle Routing Problem (VRP)
-- Google OR-Tools Optimization
-- OpenRouteService API
-- Interactive Folium Maps
-- Distance Matrix Generation
-- Multi-stop Route Optimization
+A Python-based logistics optimization project that aims to solve the **Vehicle Routing Problem (VRP)** using **Google OR-Tools**. The objective is to generate optimized multi-stop delivery routes while minimizing travel distance and improving route efficiency.
 
 ---
 
-## Technologies
+## 📌 Project Overview
+
+This project focuses on developing a modular logistics route optimization system by combining optimization algorithms with real-world routing data and interactive map visualization.
+
+---
+
+## ✅ Current Progress
+
+- Implemented a CSV-based delivery location loader.
+- Developed distance matrix generation for delivery locations.
+- Built the initial Google OR-Tools Vehicle Routing Problem (VRP) solver.
+- Structured the project using a modular Python architecture.
+
+---
+
+## 🚀 Upcoming Features
+
+- Integrate the OpenRouteService API for real-world road distances and travel times.
+- Visualize optimized delivery routes using Folium.
+- Compare baseline and optimized routes.
+- Improve routing performance and support additional optimization constraints.
+
+---
+
+## 🛠️ Technologies
 
 - Python
 - Google OR-Tools
-- OpenRouteService
-- Folium
 - Pandas
 - NumPy
+- OpenRouteService *(Planned)*
+- Folium *(Planned)*
 
 ---
 
-## Repository Structure
+## 📂 Project Structure
 
-```
+```text
 Logistics-Route-Optimizer/
-
-data/
-locations.csv
-
-config.py
-data_loader.py
-distance_matrix.py
-route_optimizer.py
-map_visualizer.py
-main.py
+│
+├── data/
+│   └── locations.csv
+│
+├── config.py
+├── data_loader.py
+├── distance_matrix.py
+├── route_optimizer.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
-
----
-
-## Project Status
-
-Currently under development.
-
-Upcoming modules:
-
-- Route Optimization
-- Distance Matrix Generation
-- OpenRouteService Integration
-- Interactive Map Visualization
